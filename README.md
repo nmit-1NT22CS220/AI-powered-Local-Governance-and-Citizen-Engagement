@@ -43,9 +43,6 @@ The system follows a **modular MERN architecture**, ensuring scalability, respon
 | **Deployment (Optional)** | Vercel / Render / MongoDB Atlas Cloud |
 
 
-
-
-
 ## ⚡ Installation Guide
 
 ### 1️⃣ Clone the repository
@@ -61,8 +58,10 @@ node server.js
 ```
 
 ### 3️⃣ Environment Variables
-In server.js update 
-mongourl=your_mongodb_connection_string
+Create a `.env` file in the project root:
+```
+MONGO_URI=your_mongodb_connection_string
+PORT=8000
 ```
 
 ## 🔐 User Roles
@@ -83,6 +82,6 @@ mongourl=your_mongodb_connection_string
 > civicFIX envisions a transparent governance ecosystem where citizens are empowered to voice their concerns, and authorities can respond efficiently — building trust, accountability, and a more connected civic experience.
 
 ## 👩🏻‍💻 Developed By
-**Aditi Kulkarni**  
+CS2240 TEAM - UNDER ENHANCEMENT  
 🎓 BE Computer Science Engineering – NMIT  
 💫 Passionate about building impactful, tech-driven civic solutions.
